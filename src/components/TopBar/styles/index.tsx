@@ -13,8 +13,10 @@ const styles = (theme : Theme) => createStyles({
     color: 'inherit',
   },
   informations: {
-    display: 'block',
+    display: 'none',
     border: '1px solid red',
+    position: 'absolute',
+    right: '20px',
     [theme.breakpoints.up('md')]: {
       display: 'flex',
     },
