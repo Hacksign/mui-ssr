@@ -49,7 +49,6 @@ const configuration : webpack.Configuration =  {
       'react-dom': 'ReactDOM',
       'redux': 'Redux',
       'react-redux': 'ReactRedux',
-      '@material-ui/core': 'window["MaterialUI"]',
     },
   ]
 }
