@@ -10,7 +10,6 @@
     "dev": "env NODE_ENV=development node --inspect=127.0.0.1:9229 --require=ts-node/register ./src/index.ts",
     "server": "npm run build; node ./dist/server.js"
   },
-  "author": "shipengfei01@qianxin.com",
   "license": "WTFPL",
   "devDependencies": {
     "@types/ejs": "^2.6.3",
